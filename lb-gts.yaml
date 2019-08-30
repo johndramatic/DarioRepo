@@ -5,7 +5,6 @@ version: "1.0"
 display-name: "HTTP/SSL LoadBalancing StyleBook"
 description: "This stylebook defines a typical Load Balanced Application configuration."
 schema-version: "1.0"
-private: true
 import-stylebooks: 
   - 
     namespace: netscaler.nitro.config
