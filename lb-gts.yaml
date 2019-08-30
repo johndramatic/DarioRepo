@@ -74,7 +74,7 @@ components:
         name: servicegroup-comp
         type: ns::servicegroup
         properties: 
-          servicegroupname: $parameters.lb-appname + "-" + $parameters.request-id + "-svcgrp1"
+          servicegroupname: $parameters.lb-appname + "-" + $parameters.request-id + "-svcgrp3"
           servicetype: $parameters.svc-service-type
           cip?: $parameters.svcg-advanced.svc-client-ip
           cipheader?: $parameters.svcg-advanced.svc-client-ip-header
