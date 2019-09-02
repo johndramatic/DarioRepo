@@ -2,7 +2,7 @@
 name: lb-gts
 namespace: com.citrix.adc.stylebooks
 version: "1.0"
-display-name: "HTTP/SSL LoadBalancing StyleBook"
+display-name: "HTTP/SSL LoadBalancing StyleBook-changes"
 description: "This stylebook defines a typical Load Balanced Application configuration."
 schema-version: "1.0"
 import-stylebooks: 
@@ -128,7 +128,7 @@ components:
             repeat: $parameters.svc-server-domains
             repeat-item: server
             properties: 
-              name: $server.domain + "-server"
+              name: $server.domain + "-server1"
               domain: $server.domain
           - 
             name: svg-fqdn-members
