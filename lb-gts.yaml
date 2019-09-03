@@ -128,7 +128,7 @@ components:
             repeat: $parameters.svc-server-domains
             repeat-item: server
             properties: 
-              name: $server.domain + "-server1"
+              name: $server.domain + "-server"
               domain: $server.domain
           - 
             name: svg-fqdn-members
