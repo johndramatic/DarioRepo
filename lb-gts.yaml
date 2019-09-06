@@ -2,6 +2,7 @@
 name: lb-gts
 namespace: com.citrix.adc.stylebooks
 version: "1.0"
+private: true
 display-name: "HTTP/SSL LoadBalancing StyleBook-hello20"
 description: "This stylebook defines a typical Load Balanced Application configuration."
 schema-version: "1.0"
