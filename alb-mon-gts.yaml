@@ -2,7 +2,7 @@
 name: alb-mon-gts
 namespace: com.citrix.adc.stylebooks
 version: "1.0"
-description: "This stylebook defines a typical Load Balanced Application configuration with monitorstrial1."
+description: "This stylebook defines a typical Load Balanced Application configuration with monitorstrial2."
 display-name: "HTTP/SSL LoadBalancing (with Monitors) StyleBook"
 schema-version: "1.0"
 import-stylebooks: 
