@@ -80,7 +80,7 @@ components:
     repeat-index: ndx
     description: "Builds a list of Citrix ADC monitor objects and binds them to the servicegroup of this LB config"
     properties-default-sources:
-      - $mon
+      - $mon22
     properties:
         monitorname: $substitutions.mon-name($parameters.lb-appname, $mon.monitorname)
         netprofile: $components.lb-comp.outputs.netprofile.properties.name
