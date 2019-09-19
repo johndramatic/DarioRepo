@@ -23,7 +23,7 @@ parameters-default-sources:
 parameters:
   -
     name: monitor-list
-    label: "Monitors to be used"
+    label: "Monitors to be wwwused"
     required: true 
     type: object
     parameters:  
