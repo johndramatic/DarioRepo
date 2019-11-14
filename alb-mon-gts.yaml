@@ -1,5 +1,5 @@
 --- 
-name: alb-mon-gts
+name: alb-mon1-gts
 namespace: com.citrix.adc.stylebooks
 version: "1.0"
 description: "This stylebook defines a typical Load Balanced Application configuration with monitorstrial98765."
